@@ -7,11 +7,13 @@ class MaxHeap {
 	}
 
 	push(data, priority) {
-		
+		var insertNode = new Node(data, priority);
+		var data, priority;
+
 	}
 
 	pop() {
-		
+
 	}
 
 	detachRoot() {
