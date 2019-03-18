@@ -3,12 +3,13 @@ class Node {
 		this.parent = null;
 		this.left = null;
 		this.right = null;
-		
+		this.data = 42;
+		this.priority = 15;
 
 	}
 
 	appendChild(node) {
-
+	
 	}
 
 	removeChild(node) {

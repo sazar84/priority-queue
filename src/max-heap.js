@@ -7,9 +7,8 @@ class MaxHeap {
 	}
 
 	push(data, priority) {
-		var insertNode = new Node(data, priority);
-		var data, priority;
-
+		var insertNode = new Node;
+		
 	}
 
 	pop() {
