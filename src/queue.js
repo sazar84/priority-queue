@@ -10,7 +10,7 @@ class PriorityQueue {
 	}
 
 	shift() {
-	heap.pop();
+	this.heap.pop();
 	}
 
 	size() {
