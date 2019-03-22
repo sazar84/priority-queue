@@ -28,7 +28,7 @@ removeChild(node) {
 	throw Error;
 }
 
-	remove() {
+		remove() {
 
 	}
 
