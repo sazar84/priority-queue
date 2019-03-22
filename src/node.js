@@ -8,10 +8,11 @@ class Node {
 	}
 
 	appendChild(node) {
-		// leftChild = new Node
-		// this.left = leftChild;
-		// this.right = rightChild;
-	}
+		if (this.left == null || this.right == null) {
+				if (this.left == null) this.left = node;
+				else this.right = node;
+		}
+}
 
 	removeChild(node) {
 
@@ -22,7 +23,7 @@ class Node {
 	}
 
 	swapWithParent() {
-		
+
 	}
 }
 
