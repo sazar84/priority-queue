@@ -8,15 +8,25 @@ class Node {
 	}
 
 	appendChild(node) {
-		// if (this.left == null || this.right == null) {
-		// 		if (this.left == null) this.left = node;
-		// 		else this.right = node;
-		// }
+		if (this.left === null || this.right === null) {
+				if (this.left === null) this.left = node;
+				else this.right = node;
+		}
 }
 
-	removeChild(node) {
-
+removeChild(node) {
+	if (this.left == node) {
+			this.left = null;
+			node.parent = null;
+			return;
 	}
+	if (this.right == node) {
+			this.right = null;
+			node.parent = null;
+			return;
+	}
+	throw Error;
+}
 
 	remove() {
 
